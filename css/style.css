@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+    background-color: #B35503;
+    color: #08D4FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sansita Swashed";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    background-color: #FFBF52;
+    color: #0093B3;
+    text-align: center;
+    border: 2px solid #0093B3;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
