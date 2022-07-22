@@ -6,6 +6,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Sansita Swashed";
+    text-align: center;
+}
+h1 {
     font-size: 40pt;
 }
 
@@ -28,3 +31,11 @@ header {
 #bio {
     text-align: center;
 }
+
+#hobbies ul li:nth-child(2n) {
+    color: #d13ef6;
+  }
+
+  #hobbies ul li:nth-child(2n-1) {
+    color: orange;
+  }
