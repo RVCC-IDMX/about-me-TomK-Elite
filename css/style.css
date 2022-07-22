@@ -24,13 +24,19 @@ header {
     padding: 10px;
 }
 
+/*Hero Section*/
+
 #hero img {
     width: 300px;
 }
 
+/*Bio Section*/
+
 #bio {
     text-align: center;
 }
+
+/*Hobbies Section*/
 
 #hobbies ul li:nth-child(2n) {
     color: #d13ef6;
@@ -38,4 +44,18 @@ header {
 
   #hobbies ul li:nth-child(2n-1) {
     color: orange;
+  }
+
+  /*Gallery Section*/
+
+  #gallery {
+    border: 2px solid #0093B3 ;
+  }
+
+  #gallery img {
+    max-width: 100%;
+  }
+
+  #gallery figure {
+    text-align: center;
   }
